@@ -1,0 +1,4 @@
+
+npx sass --watch \MainProject\MainStyles\styles.scss:\MainProject\MainStyles\styles.css 
+npx sass --watch src/scss/main.scss:dist/main.css
+npx sass --watch \MainProject\MainStyles\styles.scss:\MainProject\MainStyles\styles.css

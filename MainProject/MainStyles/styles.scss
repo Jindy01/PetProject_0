@@ -1,0 +1,26 @@
+$fz: 80px;
+$color_1:#000000
+
+
+
+.block {
+    padding: 30px;
+    line-height: 60px;
+    .block__text{
+        font-size: $fz;
+    }
+}
+
+
+.link {
+    color: rgb(74, 192, 194);
+    text-decoration: underline;
+    font-size: 150px;
+    .block &{
+        font-size: 100px;
+    }
+    &:hover{
+        color: gold;
+    }
+}
+ 
