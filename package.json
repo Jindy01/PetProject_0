@@ -2,5 +2,9 @@
   "dependencies": {
     "sass": "^1.64.2",
     "sass-watch": "^0.1.0"
+  },
+  "devDependencies": {
+    "stylelint": "^15.10.2",
+    "stylelint-scss": "^5.1.0"
   }
 }
