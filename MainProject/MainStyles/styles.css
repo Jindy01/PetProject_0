@@ -110,6 +110,34 @@ legend {
 }
 
 body {
+  background: rgb(248, 226, 195);
   font-family: "Montserrat Alternates";
-  color: #a4a476;
+}
+
+.img {
+  margin: 50px 50px;
+  border-radius: 50px;
+}
+
+.block-1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.block-2 {
+  position: absolute;
+  z-index: 0;
+  margin: 160px 80px;
+  padding: 0px;
+  width: 1380px;
+  height: 560px;
+  border-radius: 60px;
+  background-color: rgb(168, 130, 121);
+}
+
+.buttons {
+  margin: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50px;
 }
