@@ -8,7 +8,7 @@ $fz: 80px;
 //      Отредактироваить цвет 4   //
 $color_1: rgb(32, 20, 19);
 $color_2: rgb(96, 57, 53);
-$color_3: rgb(168, 130, 121);
+$color_3: rgb(208, 163, 153);
 $color_4: rgb(196, 176, 167);
 $color_5: rgb(248, 226, 195);
 $color_bk: rgb(0, 0, 0);
@@ -19,9 +19,15 @@ body {
     font-family: "Montserrat Alternates";
 }
 
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .img {
     margin: 50px 50px;
     border-radius: 50px;
+    border: solid 2px black;
 }
 
 .block-1 {
@@ -32,17 +38,39 @@ body {
 .block-2 {
     position: absolute;
     z-index: 0;
-    margin: 160px 80px;
-    padding: 0px;
+    margin: 150px 80px;
+    padding: 30px;
     width: 1380px;
     height: 560px;
     border-radius: 60px;
     background-color: $color_3;
 }
 
-.buttons {
-    margin: 100px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50px;
+.block-2-text {
+    // display: none;
+    padding-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
 }
+
+.pull-of-buttons {
+    display: flex;
+    justify-content: end;
+    margin: -10px 0 0 0;
+    padding: 0 10px 0 -20px;
+}
+
+.buttons {
+    margin: 80px 120px 50px 20px;
+    padding: 10px;
+    width: 180px;
+    border-radius: 50px;
+    border: solid 2px $color_2;
+    background-color: $color_3;
+}
+
+.buttons:hover {
+    background-color: rgb(255, 198, 186);
+}
+
+
